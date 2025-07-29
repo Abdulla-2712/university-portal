@@ -13,7 +13,6 @@ university-portal/
 ├── university-portal-frontend/ → Next.js (React)
 ├── university-portal-backend/ → Django + PostgreSQL
 └── README.md → You’re here
------------------------------------------------------
 
 
 
