@@ -110,7 +110,7 @@ To securely send emails through your Gmail account without exposing your real pa
 ## 👨‍💻 Authors
    - **Abdulla Omar Ali Sayed**
 
-aabdula2712@gmail.com • [GitHub](https://github.com/Abdulla-2712) • [LinkedIn](httpsl://linkedin.com/in/abdulla-omar-ali)
+aabdula2712@gmail.com • [GitHub](https://github.com/Abdulla-2712) • [LinkedIn](httpsl://linkedin.com/in/abdulla-omar-ali/)
 
 - **Zeyad Mohamed Elsayed Gasser**
 
