@@ -105,12 +105,38 @@ To securely send emails through your Gmail account without exposing your real pa
          EMAIL_HOST_PASSWORD = 'your_generated_app_password'  # Replace with the app password
       ---------------------------------------------------------------------------------------------------------------------------------------
 
+## 🛠️ Creating an Admin User via Django Shell
+Since the admin account is not created through a sign-up form, you’ll need to manually create it using the Django shell.
 
+Steps:
+
+**1- Run the shell:**
+
+      run rav shell
+
+**2- Create the admin user:**
+
+      from accounts.models import Admin 
+      from django.contrib.auth.hashers import make_password
+
+      admin = Admin.objects.create(
+         email="admin@example.com",
+         name="Admin Name",
+         password=make_password("type-your-password")
+      )
+
+**3- Exit the shell:**
+
+      exit()
+      
+## **🔐 Password Requirements:**
+
+Make sure your password follows the constraints enforced in the system (e.g., at least 8 characters, includes uppercase, lowercase, number, and special character).
 
 ## 👨‍💻 Authors
    - **Abdulla Omar Ali Sayed**
 
-aabdula2712@gmail.com • [GitHub](https://github.com/Abdulla-2712) • [LinkedIn](https://linkedin.com/in/abdulla-omar-ali/)
+aabdula2712@gmail.com • [GitHub](https://github.com/Abdulla-2712) • [LinkedIn](httpsl://linkedin.com/in/abdulla-omar-ali)
 
 - **Zeyad Mohamed Elsayed Gasser**
 
