@@ -1,0 +1,6 @@
+[submodule "university-portal-backend"]
+	path = university-portal-backend
+	url = git@github.com:ZEYAD-GASSER/university-portal-backend.git
+[submodule "university-portal-frontend"]
+	path = university-portal-frontend
+	url = git@github.com:ZEYAD-GASSER/university-portal-frontend.git
